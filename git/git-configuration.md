@@ -28,19 +28,19 @@ git config --list --show-origin --show-scope
 &#x20;git 2.23版本后支持--show-scope, 可以通过git --version来查当前版本, 这个命令的好处是所有类型的操作系统(mac os, linux , windows) 都适用 (配置文件位置路径在不同操作系统中是不一样的) .
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-02-28 à 23.33.11.png" alt=""><figcaption><p>command output</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-02-28 à 23.33.11.png" alt=""><figcaption><p>command output</p></figcaption></figure>
 
 #### git的3层配置文件
 
 git分3层逐个顺序读取配置文件: System->Global-> Local , 每遇到**重复的配置**参数都会重载(overwrite)之前一层的参数. 比如如果你在global层定义了一个git user参数, 而且local层定义了另一个git user参数, 最终git会采用最后一个层也就是local层的git user参数.&#x20;
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-02-28 à 23.20.35.png" alt=""><figcaption><p>3 layer configuration file</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-02-28 à 23.20.35.png" alt=""><figcaption><p>3 layer configuration file</p></figcaption></figure>
 
 #### git的重要配置参数
 
 git配置文件是ini格式由\[section]和parameter组成, 最主要的几个配置有
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-02-28 à 23.49.52.png" alt=""><figcaption><p>git config file</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-02-28 à 23.49.52.png" alt=""><figcaption><p>git config file</p></figcaption></figure>
 
 * user.name 和 user.email
 
