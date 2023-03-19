@@ -1,4 +1,4 @@
-# vagrant 应用
+# vagrant practices
 
 vagrant 时候
 
