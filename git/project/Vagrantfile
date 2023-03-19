@@ -1,0 +1,12 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/bionic64"
+  config.vm.provider "virtualbox" do |vb|
+  config.vm.synced_folder "./git_commands_training", "/home/vagrant/git_commands_training"
+  # update git to latest version and set vim as editor
+  config.vm.provision "shell", inline: "
+  sudo add-apt-repository -y ppa:git-core/ppa &&
+  sudo apt-get update &&
+  sudo apt-get install git -y &&
+  git config --system core.editor 'vim'"
+  end
+end
