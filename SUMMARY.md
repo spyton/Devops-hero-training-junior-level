@@ -1,9 +1,9 @@
 # Table of contents
 
 * [vagrant](README.md)
-  * [vagrant作用](vagrant/vagrant-zuo-yong.md)
+  * [vagrant setup](vagrant/vagrant-setup.md)
   * [vagrantfile](vagrant/vagrantfile.md)
-* [git](git/README.md)
+* [git](<README (1).md>)
   * [git configuration](git/git-configuration.md)
   * [git junior level](git/git-junior-level.md)
   * [git commands](git/git-commands/README.md)
