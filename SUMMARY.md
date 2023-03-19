@@ -1,7 +1,7 @@
 # Table of contents
 
 * [vagrant](README.md)
-  * [vagrant setup](vagrant/vagrant-setup.md)
+  * [vagrant setup](vagrant/vagrant-zuo-yong.md)
   * [vagrantfile](vagrant/vagrantfile.md)
 * [git](<README (1).md>)
   * [git configuration](git/git-configuration.md)
