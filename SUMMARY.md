@@ -15,6 +15,6 @@
   * [git junior level](<README (2) (1).md>)
 * [vagrant](vagrant/README.md)
   * [vagrant practices](<README (2).md>)
-  * [vagrant use](vagrant/vagrant-use.md)
+  * [vagrant use](<README (1).md>)
 * [docker](docker.md)
 * [jenkins](jenkins.md)
