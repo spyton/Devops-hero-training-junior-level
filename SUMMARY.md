@@ -1,8 +1,12 @@
 # Table of contents
 
+## vagrant
+
+* [Page 1](README.md)
+
 ## git
 
-* [git junior level](README.md)
+* [git junior level](<README (1).md>)
 * [git configuration](git/git-configuration.md)
 * [git commands](git/git-commands/README.md)
   * [workspace management](git/git-commands/workspace-management/README.md)
