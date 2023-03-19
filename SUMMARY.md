@@ -2,6 +2,7 @@
 
 * [git](README.md)
   * [git configuration](git/git-configuration.md)
+  * [git junior level](git/git-junior-level.md)
   * [git commands](git/git-commands/README.md)
     * [workspace management](git/git-commands/workspace-management/README.md)
       * [git init](git/git-commands/workspace-management/git-init.md)
@@ -12,7 +13,6 @@
       * [git merge](git/git-commands/commit-management/git-merge.md)
       * [git rebase](git/git-commands/commit-management/git-rebase.md)
       * [git squash](git/git-commands/commit-management/git-squash.md)
-  * [git junior level](git/git-junior-level.md)
 * [vagrant](vagrant/README.md)
   * [vagrant practices](vagrant/vagrant-practices.md)
   * [vagrant use](vagrant/vagrant-use.md)
