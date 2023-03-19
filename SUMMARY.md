@@ -1,6 +1,9 @@
 # Table of contents
 
-* [git](README.md)
+* [vagrant](README.md)
+  * [vagrant作用](vagrant/vagrant-zuo-yong.md)
+  * [vagrantfile](vagrant/vagrantfile.md)
+* [git](git/README.md)
   * [git configuration](git/git-configuration.md)
   * [git junior level](git/git-junior-level.md)
   * [git commands](git/git-commands/README.md)
@@ -13,8 +16,5 @@
       * [git merge](git/git-commands/commit-management/git-merge.md)
       * [git rebase](git/git-commands/commit-management/git-rebase.md)
       * [git squash](git/git-commands/commit-management/git-squash.md)
-* [vagrant](vagrant/README.md)
-  * [vagrant practices](vagrant/vagrant-practices.md)
-  * [vagrant use](vagrant/vagrant-use.md)
 * [docker](docker.md)
 * [jenkins](jenkins.md)
