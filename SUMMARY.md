@@ -5,7 +5,6 @@
   * [vagrantfile](vagrant/vagrantfile.md)
 * [git](git/README.md)
   * [git configuration](git/git-configuration.md)
-  * [git junior level](git/git-junior-level.md)
   * [git commands](git/git-commands/README.md)
     * [workspace management](git/git-commands/workspace-management/README.md)
       * [git init](git/git-commands/workspace-management/git-init.md)
