@@ -1,0 +1,2 @@
+# basic command and configuration
+
