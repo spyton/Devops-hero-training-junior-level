@@ -1,9 +1,9 @@
 # Table of contents
 
 * [vagrant](README.md)
-  * [vagrant setup](readme/vagrant-zuo-yong.md)
-  * [vagrantfile](readme/vagrantfile.md)
-  * [vagrant command](readme/vagrant-command.md)
+  * [vagrant setup](vagrant/vagrant-zuo-yong.md)
+  * [vagrantfile](vagrant/vagrantfile.md)
+  * [vagrant command](vagrant/vagrant-command.md)
 * [git](git/README.md)
   * [git configuration](git/git-configuration.md)
   * [git commands](git/git-commands/README.md)
