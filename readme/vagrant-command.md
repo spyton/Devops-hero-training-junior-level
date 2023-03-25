@@ -97,7 +97,7 @@ vagrant halt name 或者 id
 
 ## vagrant suspend
 
-如果需要存储当前虚拟机的运行状态, 比如有数据库或者程序运行中, 可以使用suspend命令, 挂起虚拟机, 虚拟机内存会保存在主机的硬盘上, 当再次使用vagrant resume恢复虚拟机时, 虚拟机会快速恢复在suspend时的运行状态, 不会从最开始守护进程重新启动.&#x20;
+如果需要存储当前虚拟机的运行状态, 比如有数据库或者程序运行中, 可以使用vagrant suspend命令, 挂起虚拟机, 虚拟机内存会保存在主机的硬盘上, 当再次使用vagrant resume恢复虚拟机时, 虚拟机会快速恢复在suspend时的运行状态, 不需要从最开始守护进程重新启动虚拟机.&#x20;
 
 ## vagrant destroy
 
@@ -105,9 +105,9 @@ vagrant halt name 或者 id
 
 ## vagrant box
 
-用来管理vagrant中的虚拟机镜像, 通常使用list来查看本地vagrant管理的镜像. 并使用add和remove进行添加与删除操作.
+用来管理vagrant中的虚拟机镜像, 通常使用vagrant list来查看本地vagrant管理的镜像. 并使用vagrant add和vagrant remove进行添加与删除操作.
 
 ## vagrant global-status
 
-用来查看vagrant运行的所有虚拟机,运行状态和对应vagrantfile所在文件夹, 在运行较多虚拟机后, 有些虚拟机并未使用halt或destroy关闭, 它们会一直运行在vagrant环境内, 消耗本机后台资源以及电池使用. 是每次训练后非常有用的查看命令.&#x20;
+用来查看vagrant运行的所有虚拟机,运行状态和对应vagrantfile所在文件夹, 如果运行较多虚拟机后, 有些虚拟机并未使用halt或destroy关闭, 它们会一直在vagrant环境内运行, 消耗本机后台资源以及电池使用. 所以这个命令是每次训练后经常要查看的状态命令.
 
