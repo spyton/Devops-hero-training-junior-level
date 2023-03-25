@@ -4,7 +4,7 @@
 
 ## vagrant init
 
-在当前文件夹内初始化一个Vagranfile,  可以设定box( config.vm.box ) 和其指定下载的url地址, 常用的flag有-f(强制初始化, overwrite原有的Vagranfile) 和 -m (只保留Vagrantfile内运行的内容, 删除注释提示)&#x20;
+在当前文件夹内初始化一个Vagranfile, 可以设定box( config.vm.box ) 和其指定下载的url地址, 常用的flag有-f(强制初始化, overwrite原有的Vagranfile) 和 -m (只保留Vagrantfile内运行的内容, 删除注释提示)
 
 ```
 vagrant init -f -m config.vm.box config.vm.box_url
@@ -12,7 +12,7 @@ vagrant init -f -m config.vm.box config.vm.box_url
 vagrant init -f -m ubuntu/trusty64 app.vagrantup.com/ubuntu/boxes/trusty64
 ```
 
-## vagrant up&#x20;
+## vagrant up
 
 当前文件夹内生成Vagrantfile后, 就可以运行Vagranfile配置的虚拟机, 在文件夹内运行
 
@@ -97,11 +97,11 @@ vagrant halt name 或者 id
 
 ## vagrant suspend
 
-如果需要存储当前虚拟机的运行状态, 比如有数据库或者程序运行中, 可以使用vagrant suspend命令, 挂起虚拟机, 虚拟机内存会保存在主机的硬盘上, 当再次使用vagrant resume恢复虚拟机时, 虚拟机会快速恢复在suspend时的运行状态, 不需要从最开始守护进程重新启动虚拟机.&#x20;
+如果需要存储当前虚拟机的运行状态, 比如有数据库或者程序运行中, 可以使用vagrant suspend命令, 挂起虚拟机, 虚拟机内存会保存在主机的硬盘上, 当再次使用vagrant resume恢复虚拟机时, 虚拟机会快速恢复在suspend时的运行状态, 不需要从最开始守护进程重新启动虚拟机.
 
 ## vagrant destroy
 
-训练完毕后, 可以使用destroy将虚拟机删除, 不同于halt或者suspend, destroy会将此虚拟机在硬盘产生的内容全部删除, 回到vagrant up前的初始状态.&#x20;
+训练完毕后, 可以使用destroy将虚拟机删除, 不同于halt或者suspend, destroy会将此虚拟机在硬盘产生的内容全部删除, 回到vagrant up前的初始状态.
 
 ## vagrant box
 
@@ -110,4 +110,3 @@ vagrant halt name 或者 id
 ## vagrant global-status
 
 用来查看vagrant运行的所有虚拟机,运行状态和对应vagrantfile所在文件夹, 如果运行较多虚拟机后, 有些虚拟机并未使用halt或destroy关闭, 它们会一直在vagrant环境内运行, 消耗本机后台资源以及电池使用. 所以这个命令是每次训练后经常要查看的状态命令.
-
