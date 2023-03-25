@@ -1,8 +1,8 @@
 # Table of contents
 
 * [vagrant](README.md)
-  * [vagrant setup](vagrant/vagrant-zuo-yong.md)
-  * [vagrantfile](vagrant/vagrantfile.md)
+  * [vagrant setup](readme/vagrant-zuo-yong.md)
+  * [vagrantfile](readme/vagrantfile.md)
   * [vagrant command](readme/vagrant-command.md)
 * [git](git/README.md)
   * [git configuration](git/git-configuration.md)
@@ -16,7 +16,7 @@
       * [git merge](git/git-commands/commit-management/git-merge.md)
       * [git rebase](git/git-commands/commit-management/git-rebase.md)
       * [git squash](git/git-commands/commit-management/git-squash.md)
-* [docker](docker.md)
+* [docker](docker/README.md)
   * [practices topics](docker/practices-topics/README.md)
     * [basic command and configuration](docker/practices-topics/basic-command-and-configuration.md)
     * [image creation and management](docker/practices-topics/image-creation-and-management.md)
@@ -24,6 +24,6 @@
     * [storage and volume](docker/practices-topics/storage-and-volume.md)
     * [network](docker/practices-topics/network.md)
   * [certification topics](docker/certification-topics.md)
-* [jenkins](jenkins.md)
+* [jenkins](jenkins/README.md)
   * [certification topics](jenkins/certification-topics.md)
   * [practices topics](jenkins/practices-topics.md)
